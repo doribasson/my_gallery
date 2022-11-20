@@ -1,0 +1,28 @@
+.navbar_container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 4rem;
+  top: 0;
+}
+
+.leftNavBar {
+  font-size: 2rem;
+}
+
+.rightNavBar {
+  font-size: 2rem;
+}
+
+$small: 700px;
+
+.leftNavBar,
+.rightNavBar {
+  @media screen and (max-width: $small) {
+    display: none;
+  }
+}

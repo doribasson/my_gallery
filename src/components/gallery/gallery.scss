@@ -1,0 +1,41 @@
+.gallery_container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#scrollableDiv::-webkit-scrollbar {
+  width: 12px;
+}
+
+#scrollableDiv::-webkit-scrollbar-track {
+  background: rgb(67, 67, 67);
+}
+
+#scrollableDiv::-webkit-scrollbar-thumb {
+  background-color: rgb(195, 195, 195);
+  border-radius: 20px;
+  border: 3px solid rgb(207, 207, 207);
+}
+
+.scrollableDiv_container {
+  // height: 85vh;
+  display: flex;
+  overflow-y: auto;
+}
+
+.ImageScrolling {
+  // height: 80vh;
+  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.gallery_header {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
